@@ -1,0 +1,96 @@
+.hire-container .btn{
+    margin: 2vh;
+    width: 43vh;
+    cursor: pointer;
+    padding: 3vh;
+    color: rgb(179, 226, 245);
+    justify-content: space-between;
+    font-size: 3vh;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12vh;
+    box-shadow: 6 6 6 6 blue;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.hire-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+.hire-container h2{
+    font-size:7.3vh
+
+}
+
+.hire-container h2 span{
+    color:#78a2c0;
+    text-decoration:underline ;
+}
+.title-ad{
+    text-align: center;
+}
+.contact-container{
+    padding-top: 10vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    
+    
+}
+.contact-me .tech-icon{
+    margin: 2vh;
+    cursor: pointer;
+    padding:1vh;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-size: 2vh;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12vh;
+    box-shadow: 6 6 6 6 blue;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+footer{
+    padding-top: 6vh;
+    text-align: center;
+    color: #858b8f;
+}
+@media only screen and (max-width:768px){
+    .hire-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hire-container h2{
+        font-size:5vh;
+    }
+    body{
+        
+        font-size: 90%;
+    }
+    .contact-me{
+        justify-content: center;
+        align-items: center;
+    }
+    .tech-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    
+    
+
+}

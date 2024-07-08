@@ -1,0 +1,50 @@
+.skills-container {
+  align-items: center;
+  text-align: center;
+}
+.skills-container h1 {
+  text-align: center;
+}
+.skills-container h2 {
+  color: #78a2c0;
+}
+.skills-grid {
+  margin: 5vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.tech-icon {
+  height: 9vh;
+  width: 9vh;
+  padding-left: 6vh;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.skills-card {
+  flex-wrap: wrap;
+  margin: 3vh;
+}
+.line {
+  width: 0.3vh;
+  height: 65vh;
+  margin: 0vh 5vh 0vh 5vh;
+  background-color: #78a2c0;
+}
+@media only screen and (max-width: 768px) {
+  .skills-grid,
+  .column {
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  .tech-icon{
+    padding: 7%;
+  }
+}

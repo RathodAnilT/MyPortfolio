@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+@media only max-screen and(max-width:768px){
+  body{
+    font-size: smaller;
+  }
+} 

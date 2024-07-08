@@ -1,0 +1,92 @@
+/* HomeComp.css */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.home-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+.buttons .btn{
+  padding: 2vh;
+  margin-left: 1vh;
+  color: whitesmoke;
+  cursor: pointer;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 2vh;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.profile-image img {
+  height: 40vh;
+  width: 28vh;
+  border-top-left-radius: 5vh;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 5vh;
+  border-bottom-left-radius: 0;
+}
+
+.about {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.quote {
+  padding-top: 2.5%;
+  font-weight: bolder;
+  border-radius: 2vh ;
+  text-align: center;
+  background: linear-gradient(rgb(26, 0, 43) 130.5%,rgb(0, 0, 0) 1.1%);
+}
+
+.otro-blockquote{
+font-size: 1.4em;
+width:60%;
+font-family:Open Sans;
+font-style:italic;
+color: #d0d0d0;
+padding:1.2em 30px 1.2em 75px;
+line-height:1.6;
+border: 0.1vh white solid;
+position: relative;
+
+}
+
+.otro-blockquote::before{
+font-family:Arial;
+content: "\201C";
+color:#78a2c0;
+font-size:4em;
+position: absolute;
+left: 10px;
+
+top:-1vh;
+}
+
+.otro-blockquote::after{
+content: '';
+}
+
+.otro-blockquote span{
+display:block;
+color:#333333;
+font-style: normal;
+font-weight: bold;
+margin-top:1em;
+}

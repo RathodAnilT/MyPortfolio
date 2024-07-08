@@ -1,0 +1,125 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 2vh;
+  width: 100%;
+  align-items: center;
+  position: sticky; /* Changed to sticky */
+  top: 0; /* Stick to the top */
+  z-index: 2000;
+}
+
+.navbar {
+  cursor: pointer;
+  padding-top: 5vh;
+  margin-bottom: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40rem;
+  
+  
+}
+.title{
+  font-size: xx-large;
+  font-weight: bold;
+ 
+  
+}
+.navbar a:hover {
+  transform: scale(1.1);
+  border-bottom: 0.5vh solid white;
+}
+.navbar a {
+  color: white;
+  width: max-content;
+  text-decoration: none;
+  margin-left: 5vh;
+}
+.responsive-navbar-container {
+  display: none;
+  h1{
+    display: none;
+  }
+}
+.menubar-icon {
+  display: none;
+  
+}
+
+.vertical-navbar .responsive-navbar{
+ z-index:999;
+ position: absolute;
+}
+
+.desktop-navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    .header-container{
+        justify-content: space-between;
+    }
+  .navbar {
+    display: none;
+  }
+  .menubar-icon {
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    
+    margin: 5vh;
+    height: 6vh;
+    width: 6vh;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  .responsive-navbar {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    padding: 2vh 2vh 2vh 6vh;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+  }
+  .responsive-navbar a {
+    text-decoration: none;
+    
+    color: white;
+    padding-top: 2vh;
+  }
+  .responsive-navbar a:hover {
+    transform: scale(1.1);
+    border-bottom: 0.2vh solid white;
+  }
+  .responsive-navbar-container {
+    width: 100% !important;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    h1{
+      display: block;
+    }
+  }
+  .header-container{
+    .main-title{
+      display: none;
+    }
+  }
+
+
+}
+

@@ -1,0 +1,61 @@
+.experience-container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-color: #000000;
+    color: rgb(250, 250, 250);
+  }
+  
+  .experience-container .timeline {
+    position: relative;
+  }
+  
+  .experience-container .line {
+    position: absolute;
+    width: 2px;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 05%;
+    margin-left: -1px;
+  }
+  
+  .experience-container .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    left: 05%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .experience-container .content {
+    padding-left: 20px;
+
+    background-color: #0c0b0be1;
+    margin-left: 30px;
+    border-left: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 5vh;
+    position: relative;
+  }
+  
+  .experience-container h1 {
+    text-align: center;
+  }
+  
+  .experience-container h3 {
+    color: #ffffff;
+  }
+  
+  .experience-container p {
+    color: #666;
+  }
+  .experience-container li{
+    color: #c6c1c1;
+  }
+  

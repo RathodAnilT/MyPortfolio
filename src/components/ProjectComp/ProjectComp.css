@@ -1,0 +1,58 @@
+.project-container h1 {
+  text-align: center;
+  
+}
+.project-container{
+    padding-top: 5vh;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 58vh;
+  width: 40vh;
+  padding: 5vh;
+  margin: 6vh;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card button {
+    cursor: pointer;
+}
+.card img{
+  height: 23vh;
+  width: 45vh;
+  cursor: pointer;
+}
+.card h3{
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .card img{
+      height: 22vh;
+      width: 36vh;
+    }
+    .card-grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
