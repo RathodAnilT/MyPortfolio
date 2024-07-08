@@ -8,9 +8,8 @@ const ExperienceComp = () => {
       company: "CodSoft Pvt. Ltd.",
       years: "25 Dec 2023 to 25 jan 2024",
       desc: [
-        "Developed multiple projects like E-Commerce with admin panel and other functionalities for an organic products store",
-        "Developed a user management system using MERN",
-        "Delivered static and dynamic web applications to fulfill client requirements.",
+        "Created an E-Commerce platform with functionalities for electronics products, clothes, mobiles, and more.",
+        "Delivered static web applications to fulfill client requirements, consistently meeting project deadlines while ensuring high-quality code and user-friendly designs.",
       ],
     },
     {
