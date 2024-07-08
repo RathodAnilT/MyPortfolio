@@ -17,9 +17,8 @@ const ExperienceComp = () => {
       company: "Oasis Infobyte ",
       years: "5/2/2024",
       desc: [
-        "Served as the primary website developer lead, handling and updating the data to showcase the portfolio of the community.",
         "Managed the project keeping up with deadlines and scrutinizing project possibilities to deliver the best end results.",
-        "Worked in the Frontend development part using frontend framework and libraries, along with deployment.",
+        "Worked on Frontend development part using frontend framework and libraries.",
       ],
     },
     {

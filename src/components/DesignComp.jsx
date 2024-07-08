@@ -53,14 +53,14 @@ const Design = () => {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value:  ["#FFFFFF", "#FFFFFF","#FF0000", "#00FF00", "#0000FF", "#FF007F", "#FFFF00", "#FF33FF","#FFD700"],
         },
         links: {
           color: "#A8E1FF",
           distance: 150,
           enable: true,
           opacity: 0.5,
-          width: 1,
+          width: 1.2,
         },
         move: {
           direction: "none",
@@ -77,7 +77,7 @@ const Design = () => {
             enable: true,
             area: 800,
           },
-          value: 80,
+          value: 90,
         },
         opacity: {
           value: 0.5,
