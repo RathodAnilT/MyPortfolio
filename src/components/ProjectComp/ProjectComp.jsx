@@ -3,7 +3,7 @@ import './ProjectComp.css';
 
 import WeatherApp from '../../images/WeatherApp.png';
 import pp2 from '../../images/pp-2.jpg';
-import pp4 from '../../images/pp-4.jpg';
+import movie from '../../images/movie.png';
 import Blog from '../../images/Blog.png';
 import NetflixClone from '../../images/Netflix.png';
 import pp7 from '../../images/pp-7.jpg';
@@ -34,11 +34,11 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp4} alt='User Management System' />
-                <a href='https://github.com/lathika-sunder/user-management-client/' target="_blank"><button><FaExternalLinkAlt /></button></a>
+                <img src={movie} alt='MovieSphere' />
+                <a href='https://github.com/RathodAnilT/MovieApp' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
-                    <h3>User Management System</h3>
-                    <p>A comprehensive User Management System powered by MERN stack and Material-UI, implementing RESTful APIs for seamless user interaction and control.</p>
+                    <h3>MovieSphere</h3>
+                    <p>The movie app uses The Movie Database (TMDB) API to display Hindi and Hollywood movies, featuring details, posters, ratings, overviews, trailers, search, and pagination.</p>
                 </div>
             </div>
 
