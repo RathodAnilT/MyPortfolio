@@ -15,10 +15,7 @@ import ContactComp from './components/ContactMeComp/ContactComp';
 
 function App() {
 
-
- 
     return (
-     
     <>
     <HeaderComp/>
     <HomeComp/>

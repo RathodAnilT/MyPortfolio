@@ -7,6 +7,7 @@ body{
   color: rgb(255, 255, 255);
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
+  
 }
 @media only max-screen and(max-width:768px){
   body{

@@ -44,7 +44,7 @@ const ProjectComp = () => {
 
             <div className='card'>
                 <img src={pp2} alt='React Flow Family Tree' />
-                <a href='https://github.com/lathika-sunder/family-tree-client' target="_blank"><button><FaExternalLinkAlt /></button></a>
+                <a href='https://github.com/RathodAnilT' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>React Flow Family Tree</h3>
                     <p>A dynamic Family Tree application developed with the MERN stack and ReactFlow library, enabling intuitive visualization and navigation of familial relationships.</p>
@@ -53,7 +53,7 @@ const ProjectComp = () => {
 
             <div className='card'>
                 <img src={pp7} alt='Notes Application' />
-                <a href='https://github.com/lathika-sunder/mynotesapp' target="_blank"><button><FaExternalLinkAlt /></button></a>
+                <a href='https://github.com/RathodAnilT' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>Notes Application</h3>
                     <p>An interactive Notes Application built on the MEEN stack with Google Auth integration for secure user authentication and seamless note-taking experiences.</p>

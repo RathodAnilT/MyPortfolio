@@ -23,6 +23,7 @@ const HeaderComp = () => {
             <a href="#experience">Experience</a>
             <a href="#project">Project</a>
             <a href="#contact">Contact me</a>
+          
           </nav>
         </div>
 
@@ -42,6 +43,7 @@ const HeaderComp = () => {
               <a href="#experience">Experience</a>
               <a href="#project">Project</a>
               <a href="#contact">Contact me</a>
+             
             </nav>
           </div>
         </div>
